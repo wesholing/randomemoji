@@ -1,0 +1,16 @@
+#emoji {
+    font-size: 128px;
+}
+
+#emoji span {
+    user-select: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+#emoji,
+#title,
+#generate {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
