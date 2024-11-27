@@ -32,7 +32,7 @@
     
 </head>
 
-<body class="h-100">
+<body class="h-100 bg-light">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGW5226"
@@ -40,46 +40,32 @@
     <!-- End Google Tag Manager (noscript) -->
     
     <main class="vh-100">
-        <div class="container h-100 bg-light">
-            <div class="row h-100 align-items-center">
-                <div class="col">
-                    <div class="container jumbotron text-center">
-                        <div class="row">
-                            <div class="col">
-                                <h1>Random Emoji</h1>
-                            </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="card text-center">
+                        <div class="card-header bg-primary text-white py-3">
+                            <h1 class="mb-0">Random Emoji</h1>
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <p>Generate a random emoji to use in text messages, chat apps, and emails!</p>
-                                <p>Emojis are current to Unicode 16.0.0 (Sep. 10, 2024).</p>
-                                <p><span class="d-none d-md-inline">Click</span><span class="d-none"> or</span><span class="d-md-none text-capitalize">tap</span> the emoji to copy it.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <div id="emoji"><span class="rounded bg-white" data-toggle="tooltip" title="Click to copy"> </span></div>
-                                <div id="title" class="text-capitalize"><span> </span></div>
-                                <div>
-                                    <button id="generate" class="btn btn-primary btn-lg">Get New Emoji</button>
-                                </div>
+                        <div class="card-body">
+                            <p>Generate a random emoji to use in text messages, chat apps, and emails!</p>
+                            <p>Emojis are current to Unicode 16.0.0 (Sep. 10, 2024).</p>
+                            <p><span class="d-none d-md-inline">Click</span><span class="d-none"> or</span><span class="d-md-none text-capitalize">tap</span> the emoji to copy it.</p>
+                            <div id="emoji"><span class="rounded bg-white" data-toggle="tooltip" title="Click to copy"> </span></div>
+                            <div id="title" class="text-capitalize"><span> </span></div>
+                            <div>
+                                <button id="generate" class="btn btn-primary btn-lg">Get New Emoji</button>
                             </div>
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <p>Find this useful?</p>
-                                <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#6c757d', 'D1D01RBM9');kofiwidget2.draw();</script>
-                            </div>
-                        </div>
+                    <div class="text-center mt-3">
+                        <p>Find this useful?</p>
+                        <script type="text/javascript" src="https://ko-fi.com/widgets/widget_2.js"></script><script type="text/javascript">kofiwidget2.init('Buy me a coffee', '#6c757d', 'D1D01RBM9');kofiwidget2.draw();</script>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-
 </body>
-
 </html>
