@@ -1,0 +1,10 @@
+{
+  "name": "Random Emoji Generator",
+  "short_name": "Random Emoji",
+  "theme_color": "#0d6efd",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"
+}
